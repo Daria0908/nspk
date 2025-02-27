@@ -4,210 +4,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
     <title>NSPK</title>
 </head>
 
 <body>
     <main>
         <section class="main">
-            <div class="main-text">
-                <h1>
-                    Запускайте акции с кешбэком по СБП и картам «Мир»
-                </h1>
-                <p>Используйте технологические возможности Национальной системы платёжных карт для развития своего
-                    бизнеса! Запускайте акции с кешбэком для участников Программы лояльности — держателей карт «Мир»
-                    и пользователей СБП. </p>
+            <div class="container">
+                <div class="main-text vertical-layout">
+                    <h1>
+                        Запускайте акции с кешбэком по СБП и картам «Мир»
+                    </h1>
+                    <p>Используйте технологические возможности Национальной системы платёжных карт для развития своего
+                        бизнеса! Запускайте акции с кешбэком для участников Программы лояльности — держателей карт «Мир»
+                        и пользователей СБП. </p>
 
-                <div class="main-btns">
-                    <button>
-                        Стать партнёром
-                    </button>
-                    <button>
-                        Вход в личный кабинет
-                    </button>
+                    <div class="main-btns grid-layout">
+                        <button id="parnter">
+                            Стать партнёром
+                        </button>
+                        <button id="account">
+                            Вход в личный кабинет
+                        </button>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <picture>
+                        <source srcset="/assets/img/png/bann-small.png" media="(max-width: 768px)">
+                        <img src="/assets/img/png/bann1.png" alt="">
+                    </picture>
+                </div>
+                
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2>Преимущества для вашей компании</h2>
+                <div class="grid-layout">
+                    <div class="feature-item vertical-layout">
+                        <img src="/assets/img/svg/rocket.svg" alt="rocket">
+                        <h3>Самостоятельный запуск акций</h3>
+                        <p>Определяйте условия и сроки запуска акций, исходя из ваших бизнес-целей.
+                            Ваши клиенты будут получать кешбэк за покупки по карте «Мир» или через СБП</p>
+                    </div>
+                    <div class="feature-item vertical-layout">
+                        <img src="/assets/img/svg/rubl.svg" alt="rubl">
+                        <h3>Прозрачность расходов</h3>
+                        <p>Ваши расходы на акцию включают только кешбэк клиентам и сервисную комиссию, которая зависит
+                            от вида деятельности компании и определяется <a href="#">Тарифами</a></p>
+                    </div>
+                    <div class="feature-item vertical-layout">
+                        <img src="/assets/img/svg/zipper.svg" alt="zipper">
+                        <h3>Продвижение вашего бренда</h3>
+                        <p>Клиенты увидят акцию вашей компании на сайте <a href="vamprivet.ru">vamprivet.ru</a>,
+                            в мобильном приложении «Привет!» и в других каналах коммуникаций Программы лояльности</p>
+                    </div>
+                    <div class="feature-item vertical-layout">
+                        <img src="/assets/img/svg/settings.svg" alt="">
+                        <h3>Отсутствие доработок</h3>
+                        <p>С вашей стороны не требуются технические доработки или дополнительный документооборот
+                            по сопровождению акции</p>
+                    </div>
                 </div>
             </div>
-            <div class="main-img">
-                <img src="/assets/img/png/bann1 1.png" alt="">
-            </div>
         </section>
-        <section class="advantages">
-            <h2>Преимущества для вашей компании</h2>
-            <advantages class="advantage">
-                <img src="" alt="">
-                <h3>Самостоятельный запуск акций</h3>
-                <p>Определяйте условия и сроки запуска акций, исходя из ваших бизнес-целей.
-                    Ваши клиенты будут получать кешбэк за покупки по карте «Мир» или через СБП</p>
-            </advantages>
-            <advantages class="advantage">
-                <img src="" alt="">
-                <h3>Прозрачность расходов</h3>
-                <p>Ваши расходы на акцию включают только кешбэк клиентам и сервисную комиссию, которая зависит от вида
-                    деятельности компании и определяется <a href="#">Тарифами</a></p>
-            </advantages>
-            <advantages class="advantage">
-                <img src="" alt="">
-                <h3>Продвижение вашего бренда</h3>
-                <p>Клиенты увидят акцию вашей компании на сайте
-                    <a href="#">vamprivet.ru</a>, в мобильном приложении «Привет!» и в других каналах коммуникаций
-                    Программы лояльности
-                </p>
-            </advantages>
-            <advantages class="advantage">
-                <img src="" alt="">
-                <h3>Отсутствие доработок</h3>
-                <p>С вашей стороны не требуются технические доработки или дополнительный документооборот
-                    по сопровождению акции</p>
-            </advantages>
-        </section>
-        <section class="numbers">
-            <h2>О нас в цифрах</h2>
-            <div class="number">
-                <h3>1,8 тыс +</h3>
-                <p>компаний по всей России уже участвуют в Программе лояльности</p>
-            </div>
-            <div class="number">
-                <h3>75 млн +</h3>
-                <p>участников Программы — держателей карт «Мир» и пользователей СБП</p>
-            </div>
-            <div class="number">
-                <h3>5,9 млн +</h3>
-                <p>покупок с кешбэком совершено за последний год</p>
-            </div>
-            <div class="number">
-                <h3>8 лет</h3>
-                <p>с момента запуска Программы лояльности</p>
+        <section class="stats">
+            <div class="container">
+                <h2>О нас в цифрах</h2>
+                <div class="grid-layout">
+                    <div class="stat-item">
+                        <h3>1,8 тыс +</h3>
+                        <p>компаний по всей России уже участвуют в Программе лояльности</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>75 млн +</h3>
+                        <p>участников Программы — держателей карт «Мир» и пользователей СБП</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5,9 млн +</h3>
+                        <p>покупок с кешбэком совершено за последний год</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8 лет</h3>
+                        <p>с момента запуска Программы лояльности</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="SBP">
-            <div class="SBP-text">
-                <h2>Приём платежей через СБП — это выгодно!</h2>
-                <ul>
-                    <li>Комиссия ниже, чем за эквайринг — 0,2%, 0,4% или 0,7%</li>
-                    <li>Мгновенное зачисление — деньги на ваш счёт сразу после оплаты</li>
-                    <li>Ваши клиенты могут оплачивать покупки смартфоном</li>
-                </ul>
-                <button>Подробнее</button>
-            </div>
-            <div class="SBP-img">
-                <img src="/assets/img/png/bann2 1.png" alt="">
+            <div class="container">
+                <div class="SBP-text vertical-layout">
+                    <h2>Приём платежей через СБП — это выгодно!</h2>
+                    <ul>
+                        <li>Комиссия ниже, чем за эквайринг — 0,2%, 0,4% или 0,7%</li>
+                        <li>Мгновенное зачисление — деньги на ваш счёт сразу после оплаты</li>
+                        <li>Ваши клиенты могут оплачивать покупки смартфоном</li>
+                    </ul>
+                    <button id="details">Подробнее</button>
+                </div>
+                <div class="SBP-img">
+                    <img src="/assets/img/png/bann2.png" alt="">
+                </div>
             </div>
         </section>
         <section class="goals">
-            <h2>Выбирайте механики акций в зависимости от бизнес-целей</h2>
-            <div class="goal">
-                <img src="" alt="">
-                <goal class="text">
-                    <h3>Привлечь новых клиентов</h3>
-                    <ul>
-                        <li>Кешбэк за любую или первую покупку</li>
-                        <li>Пример: кешбэк 10% за любую покупку</li>
-                    </ul>
-                </goal>
-            </div>
-            <div class="goal">
-                <img src="" alt="">
-                <goal class="text">
-                    <h3>Увеличить оборот</h3>
-                    <ul>
-                        <li>Кешбэк за покупку от определённой суммы</li>
-                        <li>Пример: кешбэк 300 ₽ за любую покупку от 1 500 ₽</li>
-                    </ul>
-                </goal>
-            </div>
-            <div class="goal">
-                <img src="" alt="">
-                <goal class="text">
-                    <h3>Повысить средний чек</h3>
-                    <ul>
-                        <li>Кешбэк за первую покупку от определённой суммы</li>
-                        <li>Пример: кешбэк 8% за первую покупку от 1 000 ₽</li>
-                    </ul>
-                </goal>
-            </div>
-            <div class="goal">
-                <img src="" alt="">
-                <goal class="text">
-                    <h3>Увеличить регулярность покупок</h3>
-                    <ul>
-                        <li>Кешбэк за определённую покупку</li>
-                        <li>Пример: кешбэк 15% за третью покупку</li>
-                    </ul>
-                </goal>
+            <div class="container">
+                <h2>Выбирайте механики акций в зависимости от бизнес-целей</h2>
+                <div class="goal people">
+                    <div class="goal-icon" id="goal-people"></div>
+                    <div class="text">
+                        <h3>Привлечь новых клиентов</h3>
+                        <ul>
+                            <li>Кешбэк за любую или первую покупку</li>
+                            <li>Пример: кешбэк 10% за любую покупку</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="goal coins">
+                    <div class="goal-icon" id="goal-coins"></div>
+                    <div class="text">
+                        <h3>Увеличить оборот</h3>
+                        <ul>
+                            <li>Кешбэк за покупку от определённой суммы</li>
+                            <li>Пример: кешбэк 300 ₽ за любую покупку от 1 500 ₽</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="goal check">
+                    <div class="goal-icon" id="goal-check"></div>
+                    <div class="text">
+                        <h3>Повысить средний чек</h3>
+                        <ul>
+                            <li>Кешбэк за первую покупку от определённой суммы</li>
+                            <li>Пример: кешбэк 8% за первую покупку от 1 000 ₽</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="goal package">
+                    <div class="goal-icon" id="goal-package"></div>
+                    <div class="text">
+                        <h3>Увеличить регулярность покупок</h3>
+                        <ul>
+                            <li>Кешбэк за определённую покупку</li>
+                            <li>Пример: кешбэк 15% за третью покупку</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="examples">
-            <h2>Примеры успешных кейсов</h2>
-            <div class="example">
-                <img src="" alt="">
-                <h3>Супермаркеты</h3>
-                <ul>
-                    <li>+ 15% — дополнительный оборот</li>
-                    <li>+ 7% — новых клиентов</li>
-                    <li>+ 5% — рост среднего чека</li>
-                    <li>+ 2% — увеличилась частота покупок</li>
-                </ul>
-            </div>
-            <div class="example">
-                <img src="" alt="">
-                <h3>Одежда, обувь, аксессуары</h3>
-                <ul>
-                    <li>+ 18% — дополнительный оборот</li>
-                    <li>+ 13% — новых клиентов</li>
-                    <li>+ 5% — рост среднего чека</li>
-                </ul>
-            </div>
-            <div class="example">
-                <img src="" alt="">
-                <h3>Кафе и рестораны</h3>
-                <ul>
-                    <li>+ 19% — дополнительный оборот</li>
-                    <li>+ 12% — новых клиентов</li>
-                    <li>+ 3% — рост среднего чека</li>
-                    <li>+ 4% — увеличилась частота покупок</li>
-                </ul>
-            </div>
-            <div class="example">
-                <img src="" alt="">
-                <h3>Для дома и сада</h3>
-                <ul>
-                    <li>+ 18% — дополнительный оборот</li>
-                    <li>+ 10% — новых клиентов</li>
-                    <li>+ 8% — рост среднего чека</li>
-                </ul>
+            <div class="container">
+                <h2>Примеры успешных кейсов</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="example swiper-slide">
+                            <img src="/assets/img/svg/basket.svg" alt="">
+                            <h3>Супермаркеты</h3>
+                            <ul>
+                                <li>+ 15% — дополнительный оборот</li>
+                                <li>+ 7% — новых клиентов</li>
+                                <li>+ 5% — рост среднего чека</li>
+                                <li>+ 2% — увеличилась частота покупок</li>
+                            </ul>
+                        </div>
+                        <div class="example swiper-slide">
+                            <img src="/assets/img/svg/t-shirt.svg" alt="">
+                            <h3>Одежда, обувь, аксессуары</h3>
+                            <ul>
+                                <li>+ 18% — дополнительный оборот</li>
+                                <li>+ 13% — новых клиентов</li>
+                                <li>+ 5% — рост среднего чека</li>
+                            </ul>
+                        </div>
+                        <div class="example swiper-slide">
+                            <img src="/assets/img/svg/cup.svg" alt="">
+                            <h3>Кафе и рестораны</h3>
+                            <ul>
+                                <li>+ 19% — дополнительный оборот</li>
+                                <li>+ 12% — новых клиентов</li>
+                                <li>+ 3% — рост среднего чека</li>
+                                <li>+ 4% — увеличилась частота покупок</li>
+                            </ul>
+                        </div>
+                        <div class="example swiper-slide">
+                            <img src="/assets/img/svg/flower.svg" alt="">
+                            <h3>Для дома и сада</h3>
+                            <ul>
+                                <li>+ 18% — дополнительный оборот</li>
+                                <li>+ 10% — новых клиентов</li>
+                                <li>+ 8% — рост среднего чека</li>
+                            </ul>
+                        </div>
+                        <div class="example swiper-slide">
+                            <img src="/assets/img/svg/umbrella.svg" alt="">
+                            <h3>Гостиницы</h3>
+                            <ul>
+                                <li>+ 24% — дополнительный оборот</li>
+                                <li>+ 13% — новых клиентов</li>
+                                <li>+ 15% — рост среднего чека</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="launch">
-            <h2>Как запустить акцию</h2>
-            <div class="action">
-                <h3>1</h3>
-                <p>Заполните <a href="#">Анкету</a> и получите доступ в личный кабинет партнёра</p>
-            </div>
-            <div class="action">
-                <h3>2</h3>
-                <p>В личном кабинете оформите Заявление на присоединение к Программе лояльности</p>
-            </div>
-            <div class="action">
-                <h3>3</h3>
-                <p>Выберите механику, укажите размер кешбэка и запускайте акцию в личном кабинете!</p>
+            <div class="container">
+                <h2>Как запустить акцию</h2>
+                <div class="action">
+                    <h3>1</h3>
+                    <p>Заполните <a href="#">Анкету</a> и получите доступ в личный кабинет партнёра</p>
+                </div>
+                <div class="action">
+                    <h3>2</h3>
+                    <p>В личном кабинете оформите Заявление на присоединение к Программе лояльности</p>
+                </div>
+                <div class="action">
+                    <h3>3</h3>
+                    <p>Выберите механику, укажите размер кешбэка и запускайте акцию в личном кабинете!</p>
+                </div>
             </div>
         </section>
         <section class="banks">
-            <h2>С какими банками-эквайрерами можно запускать акции в Программе лояльности «Привет!»</h2>
-            <input type="text" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
-            <img src="" alt="" id="">
+            <div class="container">
+                <h2>С какими банками-эквайрерами можно запускать акции в Программе лояльности «Привет!»</h2>
+                <div class="search-wrapper">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" class="search-input" placeholder="Поиск">
+                    <button class="clear-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="banks-list">
+                    <div class="bank-item"><img src="/assets/img/png/bank-sber.png" alt="Сбербанк" id="sber"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-vtb.png" alt="ВТБ" id="vtb"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-pocta.png" alt="Почта Банк" id="pochta"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-tink.png" alt="Тинькофф" id="tinkoff"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-otkritie.png" alt="Открытие" id="otkritie">
+                    </div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-gazprom.png" alt="Газпромбанк"
+                            id="gazprombank"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-Russia.png" alt="Банк Россия"
+                            id="Russia bank"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-rnkb.png" alt="РНКБ" id="rnkb"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-RusskiyStandart.png" alt="Русский Стандарт"
+                            id="russkiy standart"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-alfa.png" alt="Альфа-Банк" id="alfa bank">
+                    </div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-rosselkhoz.png" alt="Россельхозбанк"
+                            id="rosselkhozbank"></div>
+                    <div class="bank-item"><img src="/assets/img/png/bank-MoskovskiyCredit.png"
+                            alt="Московский Кредитный Банк" id="Moscow credit bank"></div>
+                </div>
+            </div>
         </section>
     </main>
+    <script src="assets/scripts/script.js"></script>
 </body>
+
 </html>
