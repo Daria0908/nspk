@@ -16,6 +16,24 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+    new Swiper('.swiper-container', {
+        slidesPerView: "auto",
+        spaceBetween: 15,
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        speed: 1000,
+        breakpoints: {
+            1024: { slidesPerView: 3 },
+            1440: { slidesPerView: 4 },
+        }
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
     const input = document.querySelector(".search-input");
     const clearBtn = document.querySelector(".clear-btn");
     const bankItems = document.querySelectorAll(".bank-item");

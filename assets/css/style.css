@@ -166,6 +166,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+.swiper-container {
+    display: none;
+}
+
 .stat-item {
     width: 256px;
     padding: 15px;

@@ -197,4 +197,38 @@
         flex: 0 0 268px;
         height: 300px;
     }
+
+    .features .grid-layout {
+        display: none;
+    }
+
+    .feature-item h3 {
+        height: 3em;
+        width: 100%;
+    }
+
+    .feature-item.swiper-slide {
+        flex: 0 0 316px;
+        height: 268px;
+        background-color: #F8F8F8;
+        padding: 20px 24px;
+    }
+
+    .features .swiper-container {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+
+    .features .swiper-wrapper {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .features .swiper-slide {
+        flex: 0 0 auto;
+        width: 75%; 
+        margin-right: 15px; 
+    }
 }
